@@ -1,0 +1,38 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Windows and other OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Code editors
+.vscode/
+.idea/
+
+# Dependencies (if added in future)
+node_modules/
+
+# Python cache (if added in future)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Local AI model files
+models/
+*.gguf
+
+# Build output
+dist/
+build/
